@@ -310,7 +310,7 @@ body {
 
 .social-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   column-gap: 24px;
 }
@@ -398,6 +398,11 @@ transform: translateY(0%);
 
 /* === FOOTER === */
 
+.footer-container {
+  display: flex;
+  column-gap: 120px;
+}
+
 .footer-logo {
   background: #2e2f42;
   color: #4d5ae5;
@@ -433,10 +438,10 @@ transform: translateY(0%);
   width: 264px;
 }
 
-.footer-wrapper {
+/* .footer-wrapper {
   display: flex;
   justify-content: center;
-}
+} */
 
 .footer-text-wrapper {
   color: #fff;
@@ -444,5 +449,5 @@ transform: translateY(0%);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 96px;
-}
+  margin-bottom: 16px;
+  }
